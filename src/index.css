@@ -60,11 +60,6 @@ select {
   font: inherit;
 }
 
-a:not([class]) {
-  color: currentColor;
-  text-decoration-skip-ink: auto;
-}
-
 #root,
 #__next {
   isolation: isolate;
