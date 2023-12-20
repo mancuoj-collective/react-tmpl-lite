@@ -11,3 +11,8 @@
 .full-bleed {
   grid-column: 1 / -1;
 }
+
+.title {
+  margin: 32px 0;
+  text-align: center;
+}
