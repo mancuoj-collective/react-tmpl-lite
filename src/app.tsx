@@ -1,11 +1,16 @@
 import { FC } from 'react'
+import './app.css'
 
 interface AppProps {
   title: string
 }
 
 const App: FC<AppProps> = ({ title }) => {
-  return <h1>Hello {title}</h1>
+  return (
+    <div className="app">
+      <h1>Hello {title}</h1>
+    </div>
+  )
 }
 
 export default App
