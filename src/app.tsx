@@ -8,7 +8,7 @@ interface AppProps {
 const App: FC<AppProps> = ({ title }) => {
   return (
     <div className="app">
-      <h1 className='title'>Hello {title}</h1>
+      <h1 className="title">Hello {title}</h1>
     </div>
   )
 }
