@@ -33,8 +33,10 @@ label {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   text-wrap: balance;
+  overflow-wrap: break-word;
 }
 
 img,
@@ -56,4 +58,19 @@ select {
 #root,
 #__next {
   isolation: isolate;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr min(60ch, calc(100% - 64px)) 1fr;
+  column-gap: 32px;
+}
+
+.app > * {
+  grid-column: 2;
+}
+
+.title {
+  margin: 32px 0;
+  text-align: center;
 }

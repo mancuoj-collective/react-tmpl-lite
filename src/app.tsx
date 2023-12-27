@@ -1,14 +1,9 @@
 import { FC } from 'react'
-import './app.css'
 
-interface AppProps {
-  title: string
-}
-
-const App: FC<AppProps> = ({ title }) => {
+const App: FC = () => {
   return (
     <div className="app">
-      <h1 className="title">Hello {title}</h1>
+      <h1 className="title">Hello React</h1>
     </div>
   )
 }
