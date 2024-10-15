@@ -28,7 +28,7 @@ importers:
         specifier: latest
         version: 1.8.1(tailwindcss@3.4.14)
       '@iconify-json/lucide':
-        specifier: ^1.2.9
+        specifier: latest
         version: 1.2.9
       '@mancuoj/prettier-config':
         specifier: latest
