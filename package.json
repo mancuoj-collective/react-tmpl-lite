@@ -6,19 +6,24 @@
     "format": "prettier --cache --write ."
   },
   "dependencies": {
-    "clsx": "^2.1.1",
-    "jotai": "^2.8.2",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@fontsource-variable/inter": "latest",
+    "@fontsource-variable/source-serif-4": "latest",
+    "@mancuoj/utils": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "@mancuoj/prettier-config": "^0.2.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react-swc": "^3.7.0",
-    "prettier": "^3.3.0",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.12"
+    "@mancuoj/prettier-config": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react-swc": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "prettier": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "vite": "latest"
   },
+  "packageManager": "pnpm@9.12.1",
   "prettier": "@mancuoj/prettier-config"
 }
