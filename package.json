@@ -13,6 +13,8 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@egoist/tailwindcss-icons": "latest",
+    "@iconify-json/lucide": "latest",
     "@mancuoj/prettier-config": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
