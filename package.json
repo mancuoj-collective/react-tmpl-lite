@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "latest",
+    "@fontsource-variable/jetbrains-mono": "^5.1.1",
     "@fontsource-variable/source-serif-4": "latest",
     "@mancuoj/utils": "latest",
     "react": "latest",
