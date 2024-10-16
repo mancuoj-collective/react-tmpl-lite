@@ -7,11 +7,12 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "latest",
-    "@fontsource-variable/jetbrains-mono": "^5.1.1",
+    "@fontsource-variable/jetbrains-mono": "latest",
     "@fontsource-variable/source-serif-4": "latest",
-    "@mancuoj/utils": "latest",
+    "clsx": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "tailwind-merge": "latest"
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "latest",
