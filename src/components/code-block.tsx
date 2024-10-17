@@ -16,7 +16,7 @@ export function CodeBlock({ code }: { code: string }) {
   }
 
   return (
-    <div className="flex items-center gap-4 rounded-xl bg-gray-100 p-3 px-5 text-xl dark:bg-gray-800 dark:text-white">
+    <div className="flex items-center gap-3 rounded-xl bg-gray-100 p-3 px-5 dark:bg-gray-800 dark:text-white">
       <div className="font-mono">{code}</div>
       <button
         title="Copy Code"
