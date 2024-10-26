@@ -19,6 +19,7 @@
     "@egoist/tailwindcss-icons": "latest",
     "@iconify-json/lucide": "latest",
     "@mancuoj/prettier-config": "latest",
+    "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react-swc": "latest",
