@@ -8,9 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter Variable"', ...defaultTheme.fontFamily.sans],
-        serif: ['Source Serif 4 Variable"', ...defaultTheme.fontFamily.serif],
-        mono: ['JetBrains Mono Variable"', ...defaultTheme.fontFamily.mono],
+        sans: ['"Inter Variable"', ...defaultTheme.fontFamily.sans],
+        serif: ['"Source Serif 4 Variable"', ...defaultTheme.fontFamily.serif],
+        mono: ['"JetBrains Mono Variable"', ...defaultTheme.fontFamily.mono],
       },
       borderRadius: {
         lg: 'var(--radius)',
