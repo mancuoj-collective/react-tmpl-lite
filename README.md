@@ -5,7 +5,7 @@ The Latest React Starter Template (Lite Version)
 - React
 - TypeScript
 - Vite
-- Wouter
+- React Router
 - Tailwind CSS + Shadcn UI
 - Lucide Icon + Remix Icon
 - Jotai + Zustand
