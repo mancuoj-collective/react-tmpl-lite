@@ -13,7 +13,11 @@ export function App() {
         />
         <div className="flex gap-1.5">
           <Button variant="outline" size="icon" asChild>
-            <a href="https://github.com/mancuoj-collective/react-tmpl-lite" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/mancuoj-collective/react-tmpl-lite"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span className="i-ri-github-line size-4" />
             </a>
           </Button>
