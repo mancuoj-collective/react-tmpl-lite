@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { Layout } from './layout'
 import { CopyInput } from '@/components/copy-input'
-import { RiArticleLine, RiChatSmileAiLine, RiGithubLine } from '@remixicon/react'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
 
 export function App() {
@@ -15,17 +14,17 @@ export function App() {
         <div className="flex gap-1.5">
           <Button variant="outline" size="icon" asChild>
             <a href="https://github.com/mancuoj-collective/react-tmpl-lite" target="_blank" rel="noreferrer">
-              <RiGithubLine />
+              <span className="i-ri-github-line size-4" />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
             <a href="https://blog.mancuoj.me" target="_blank" rel="noreferrer">
-              <RiArticleLine />
+              <span className="i-ri-article-line size-4" />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
             <a href="https://mancuoj.me" target="_blank" rel="noreferrer">
-              <RiChatSmileAiLine />
+              <span className="i-ri-chat-smile-ai-line size-4" />
             </a>
           </Button>
           <DarkModeToggle />
