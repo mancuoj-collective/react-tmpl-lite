@@ -70,7 +70,7 @@ export default {
       preferredStrategy: 'pseudoelements',
     }),
     iconsPlugin({
-      collections: getIconCollections(['ri']),
+      collections: getIconCollections(['carbon', 'simple-icons']),
     }),
   ],
 } satisfies Config
