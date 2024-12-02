@@ -10,9 +10,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Inter Variable"', ...defaultTheme.fontFamily.sans],
-        serif: ['"Source Serif 4 Variable"', ...defaultTheme.fontFamily.serif],
-        mono: ['"JetBrains Mono Variable"', ...defaultTheme.fontFamily.mono],
+        inter: ['"Inter Variable"', ...defaultTheme.fontFamily.sans],
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -70,7 +68,7 @@ export default {
       preferredStrategy: 'pseudoelements',
     }),
     iconsPlugin({
-      collections: getIconCollections(['carbon', 'simple-icons']),
+      collections: getIconCollections(['carbon']),
     }),
   ],
 } satisfies Config

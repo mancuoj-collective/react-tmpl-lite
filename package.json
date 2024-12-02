@@ -8,25 +8,21 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "latest",
-    "@fontsource-variable/jetbrains-mono": "latest",
-    "@fontsource-variable/source-serif-4": "latest",
     "@radix-ui/react-slot": "latest",
     "class-variance-authority": "latest",
     "clsx": "latest",
-    "framer-motion": "latest",
     "jotai": "latest",
     "jotai-dark": "latest",
     "jotai-effect": "latest",
     "lucide-react": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-router-dom": "latest",
+    "sonner": "latest",
     "zustand": "latest"
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "latest",
     "@iconify-json/carbon": "latest",
-    "@iconify-json/simple-icons": "latest",
     "@mancuoj/prettier-config": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
@@ -40,7 +36,8 @@
     "tailwindcss": "latest",
     "tailwindcss-animate": "latest",
     "typescript": "latest",
-    "vite": "latest"
+    "vite": "latest",
+    "vite-tsconfig-paths": "latest"
   },
   "prettier": "@mancuoj/prettier-config"
 }
