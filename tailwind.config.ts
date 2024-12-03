@@ -69,6 +69,7 @@ export default {
     }),
     iconsPlugin({
       collections: getIconCollections(['carbon']),
+      scale: 1.2,
     }),
   ],
 } satisfies Config

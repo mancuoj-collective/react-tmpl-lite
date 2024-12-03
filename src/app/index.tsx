@@ -12,12 +12,12 @@ export function App() {
             <span className="i-carbon-logo-github" />
           </IconButtonLink>
           <IconButtonLink href="https://mancuoj.me">
-            <span className="i-carbon-chat-bot" />
+            <span className="i-carbon-face-wink" />
           </IconButtonLink>
           <IconButtonLink href="https://blog.mancuoj.me">
             <span className="i-carbon-blog" />
           </IconButtonLink>
-          <DarkModeToggle />
+          <DarkModeToggle className="rounded-full" />
         </div>
       </div>
     </AppProvider>
@@ -26,7 +26,7 @@ export function App() {
 
 function IconButtonLink({ children, href }: PropsWithChildren<{ href: string }>) {
   return (
-    <Button variant="outline" size="icon" asChild>
+    <Button variant="outline" size="icon" asChild className="rounded-full">
       <a href={href} target="_blank" rel="noreferrer">
         {children}
       </a>
