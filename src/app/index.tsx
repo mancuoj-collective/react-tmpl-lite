@@ -7,11 +7,7 @@ export function App() {
     <AppProvider>
       <div className="flex min-h-svh items-center justify-center gap-2">
         <Button variant="outline" size="icon" asChild className="rounded-full">
-          <a
-            href="https://github.com/mancuoj-collective/react-tmpl-lite"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/mancuoj-collective/react-tmpl-lite">
             <span className="i-carbon-logo-github" />
           </a>
         </Button>
