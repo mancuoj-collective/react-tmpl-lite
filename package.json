@@ -7,7 +7,6 @@
     "format": "prettier --cache --write ."
   },
   "dependencies": {
-    "@fontsource-variable/inter": "latest",
     "@radix-ui/react-slot": "latest",
     "class-variance-authority": "latest",
     "clsx": "latest",
@@ -21,6 +20,7 @@
     "sonner": "latest"
   },
   "devDependencies": {
+    "@fontsource-variable/inter": "latest",
     "@egoist/tailwindcss-icons": "latest",
     "@iconify-json/carbon": "latest",
     "@mancuoj/prettier-config": "latest",

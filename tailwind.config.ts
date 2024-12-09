@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['"Inter Variable"', ...defaultTheme.fontFamily.sans],
+        sans: ['"Inter Variable"', ...defaultTheme.fontFamily.sans],
       },
       borderRadius: {
         lg: 'var(--radius)',
