@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
-import { TwScreenIndicator } from '@/components/tw-screen-indicator'
 import { AppProvider } from './provider'
 
 export function App() {
@@ -15,7 +14,6 @@ export function App() {
           </Button>
           <DarkModeToggle className="rounded-full" />
         </div>
-        <TwScreenIndicator />
       </div>
     </AppProvider>
   )
