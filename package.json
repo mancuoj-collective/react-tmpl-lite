@@ -1,10 +1,12 @@
 {
   "type": "module",
-  "packageManager": "pnpm@9.14.4",
+  "packageManager": "pnpm@9.15.0",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "format": "prettier --cache --write ."
+    "dev": "vite",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "@radix-ui/react-slot": "latest",
@@ -20,17 +22,19 @@
     "sonner": "latest"
   },
   "devDependencies": {
-    "@fontsource-variable/inter": "latest",
     "@egoist/tailwindcss-icons": "latest",
+    "@fontsource-variable/inter": "latest",
     "@iconify-json/carbon": "latest",
-    "@mancuoj/prettier-config": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react-swc": "latest",
     "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-hyoban": "latest",
+    "lint-staged": "latest",
     "postcss": "latest",
-    "prettier": "latest",
+    "simple-git-hooks": "latest",
     "tailwind-merge": "latest",
     "tailwind-scrollbar": "latest",
     "tailwindcss": "latest",
@@ -39,5 +43,10 @@
     "vite": "latest",
     "vite-tsconfig-paths": "latest"
   },
-  "prettier": "@mancuoj/prettier-config"
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
 }

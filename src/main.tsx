@@ -1,11 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
 import '@fontsource-variable/inter'
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router'
-import { App } from '@/app'
 import './globals.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+import * as React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router'
+
+import { App } from '@/app'
+
+ReactDOM.createRoot(document.querySelector('#root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>

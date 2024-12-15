@@ -1,5 +1,6 @@
-import { Button } from '@/components/ui/button'
 import { DarkModeToggle } from '@/components/dark-mode-toggle'
+import { Button } from '@/components/ui/button'
+
 import { AppProvider } from './provider'
 
 export function App() {

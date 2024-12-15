@@ -1,8 +1,8 @@
-import type { Config } from 'tailwindcss'
-import defaultTheme from 'tailwindcss/defaultTheme'
-import tailwindcssAnimate from 'tailwindcss-animate'
+import { getIconCollections, iconsPlugin } from '@egoist/tailwindcss-icons'
 import tailwindScrollbar from 'tailwind-scrollbar'
-import { iconsPlugin, getIconCollections } from '@egoist/tailwindcss-icons'
+import type { Config } from 'tailwindcss'
+import { fontFamily } from 'tailwindcss/defaultTheme'
+import tailwindcssAnimate from 'tailwindcss-animate'
 
 export default {
   darkMode: ['class'],
@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Inter Variable"', ...defaultTheme.fontFamily.sans],
+        sans: ['"Inter Variable"', ...fontFamily.sans],
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -51,13 +51,6 @@ export default {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
-        chart: {
-          '1': 'hsl(var(--chart-1))',
-          '2': 'hsl(var(--chart-2))',
-          '3': 'hsl(var(--chart-3))',
-          '4': 'hsl(var(--chart-4))',
-          '5': 'hsl(var(--chart-5))',
-        },
       },
     },
   },
@@ -69,7 +62,7 @@ export default {
     }),
     iconsPlugin({
       collections: getIconCollections(['carbon']),
-      scale: 1.2,
+      scale: 1.15,
     }),
   ],
 } satisfies Config

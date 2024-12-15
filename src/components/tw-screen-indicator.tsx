@@ -1,5 +1,6 @@
 export function TwScreenIndicator() {
-  if (import.meta.env.PROD) return null
+  if (import.meta.env.PROD)
+    return null
 
   return (
     <div className="fixed bottom-2 left-2 z-50 text-sm font-medium">

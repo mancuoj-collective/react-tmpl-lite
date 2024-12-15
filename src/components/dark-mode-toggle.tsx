@@ -1,4 +1,5 @@
 import { useDark } from '@/hooks/use-dark'
+
 import { Button } from './ui/button'
 
 export function DarkModeToggle({ className }: { className?: string }) {
