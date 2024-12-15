@@ -1,4 +1,5 @@
 import '@fontsource-variable/inter'
+import '@fontsource-variable/dm-sans'
 import './globals.css'
 
 import * as React from 'react'

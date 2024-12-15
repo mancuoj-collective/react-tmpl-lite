@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "latest",
+    "@fontsource-variable/dm-sans": "latest",
     "@fontsource-variable/inter": "latest",
     "@iconify-json/carbon": "latest",
     "@types/node": "latest",
