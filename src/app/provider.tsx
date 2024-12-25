@@ -9,7 +9,7 @@ export function AppProvider({ children }: PropsWithChildren) {
     <Provider>
       <div className="font-sans antialiased">
         {children}
-        <Toaster richColors />
+        <Toaster richColors position="bottom-center" />
         <TwScreenIndicator />
       </div>
     </Provider>

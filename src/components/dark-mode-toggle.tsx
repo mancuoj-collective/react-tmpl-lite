@@ -1,3 +1,5 @@
+import { toast } from 'sonner'
+
 import { useDark } from '@/hooks/use-dark'
 
 import { Button } from './ui/button'
@@ -10,7 +12,10 @@ export function DarkModeToggle({ className }: { className?: string }) {
       aria-label="toggle dark mode"
       size="icon"
       variant="outline"
-      onClick={toggleDark}
+      onClick={() => {
+        toggleDark()
+        toast.success('Dark mode toggled')
+      }}
       className={className}
     >
       <span className="sun i-carbon-sun rotate-0 scale-100 transition-transform duration-500 dark:-rotate-90 dark:scale-0" />
