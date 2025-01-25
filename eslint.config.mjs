@@ -14,4 +14,10 @@ export default defineConfig(
       'react-refresh/only-export-components': 'off',
     },
   },
+  {
+    files: ['package.json'],
+    rules: {
+      'package-json/valid-package-definition': 'off',
+    },
+  },
 )
