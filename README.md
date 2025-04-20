@@ -3,5 +3,5 @@
 - Bun
 - React + TypeScript + Vite
 - Tailwind CSS + Shadcn UI
-- Biome
+- ESLint
 - ...
