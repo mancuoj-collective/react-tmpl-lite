@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint --fix ."
+    "lint": "eslint --fix"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.0",
