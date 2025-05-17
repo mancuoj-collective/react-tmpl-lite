@@ -1,10 +1,10 @@
-import { App } from '@/routes'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { ThemeProvider } from 'next-themes'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router'
+import { App } from '@/routes'
 import '@/index.css'
 
 const queryClient = new QueryClient()
