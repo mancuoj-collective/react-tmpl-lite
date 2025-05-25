@@ -5,7 +5,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router'
 import { App } from '@/pages'
-import '@/styles/global.css'
+import '@/styles/globals.css'
 
 const queryClient = new QueryClient()
 
