@@ -1,4 +1,10 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import '@fontsource-variable/dm-sans';
+
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark;
+}
+
+@theme inline {
+  --font-sans: 'DM Sans Variable', sans-serif;
 }
