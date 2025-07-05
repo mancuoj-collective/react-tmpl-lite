@@ -5,20 +5,20 @@
     "build": "tsc -b && vite build"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.10",
+    "@tailwindcss/vite": "^4.1.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.10"
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@fontsource-variable/dm-sans": "^5.2.6",
-    "@types/node": "^24.0.3",
+    "@types/node": "^24.0.10",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react-swc": "^3.10.2",
     "daisyui": "^5.0.43",
     "typescript": "~5.8.3",
-    "vite": "^6.3.5",
+    "vite": "^7.0.2",
     "vite-tsconfig-paths": "^5.1.4"
   }
 }
