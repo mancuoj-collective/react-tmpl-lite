@@ -1,26 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { HeroUIProvider } from '@heroui/react'
+import { App } from './app'
 import './globals.css'
-
-function App() {
-  return (
-    <div className="font-sans antialiased relative">
-      <div className="flex flex-col items-center justify-center min-h-svh">
-        <a
-          className="btn btn-primary"
-          href="https://github.com/mancuoj-collective/react-tmpl-lite"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  )
-}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <HeroUIProvider>
+      <App />
+    </HeroUIProvider>
   </StrictMode>,
 )
