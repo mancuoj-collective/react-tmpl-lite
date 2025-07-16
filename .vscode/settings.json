@@ -4,5 +4,5 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.printWidth": 100,
-  "prettier.trailingComma": "all",
+  "prettier.trailingComma": "all"
 }
