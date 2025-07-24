@@ -15,12 +15,12 @@
       },
       "devDependencies": {
         "@fontsource-variable/dm-sans": "^5.2.6",
-        "@mancuoj/prettier-config": "^0.5.0",
+        "@mancuoj/prettier-config": "latest",
         "@types/node": "^24.0.15",
         "@types/react": "^19.1.8",
         "@types/react-dom": "^19.1.6",
         "@vitejs/plugin-react-swc": "^3.11.0",
-        "prettier": "^3.6.2",
+        "prettier": "latest",
         "typescript": "~5.8.3",
         "vite": "^7.0.5",
         "vite-tsconfig-paths": "^5.1.4",
@@ -282,7 +282,7 @@
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.29", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ=="],
 
-    "@mancuoj/prettier-config": ["@mancuoj/prettier-config@0.5.0", "", { "dependencies": { "@antfu/install-pkg": "^1.1.0", "@prettier/plugin-oxc": "^0.0.4", "local-pkg": "^1.1.1", "picocolors": "^1.1.1" }, "bin": { "prettier-config": "cli.js" } }, "sha512-3dRB4WKIpKqV3JkSvcpQb17RZc7IE3+vahsfFsTWQz6KBqy5mGqnkFJFTpZ8dcsQn688h2RkDRcUiFc4Y8w4Jg=="],
+    "@mancuoj/prettier-config": ["@mancuoj/prettier-config@0.5.1", "", { "dependencies": { "@antfu/install-pkg": "^1.1.0", "@prettier/plugin-oxc": "^0.0.4", "local-pkg": "^1.1.1", "picocolors": "^1.1.1" }, "bin": { "prettier-config": "cli.js" } }, "sha512-Xf3626vzhRj6nIjLK94DYsdeDj40BGmfRXi7MZM8JUFdWTsL3ZYNUbfWkFbXBPdCbgqjDnp/cauYYjr5w9ZwUQ=="],
 
     "@napi-rs/wasm-runtime": ["@napi-rs/wasm-runtime@0.2.12", "", { "dependencies": { "@emnapi/core": "^1.4.3", "@emnapi/runtime": "^1.4.3", "@tybys/wasm-util": "^0.10.0" } }, "sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ=="],
 
