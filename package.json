@@ -2,7 +2,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build"
+    "build": "tsc -b && vite build",
+    "format": "prettier -w ."
   },
   "dependencies": {
     "@heroui/react": "^2.8.1",
@@ -15,12 +16,15 @@
   },
   "devDependencies": {
     "@fontsource-variable/dm-sans": "^5.2.6",
+    "@mancuoj/prettier-config": "^0.5.0",
     "@types/node": "^24.0.15",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react-swc": "^3.11.0",
+    "prettier": "^3.6.2",
     "typescript": "~5.8.3",
     "vite": "^7.0.5",
     "vite-tsconfig-paths": "^5.1.4"
-  }
+  },
+  "prettier": "@mancuoj/prettier-config"
 }
