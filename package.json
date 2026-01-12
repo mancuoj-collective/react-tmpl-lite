@@ -11,7 +11,7 @@
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-query": "^5.90.16",
     "@tanstack/react-query-devtools": "^5.91.2",
-    "framer-motion": "^12.23.26",
+    "framer-motion": "^12.25.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "tailwindcss": "^4.1.18"
@@ -19,14 +19,14 @@
   "devDependencies": {
     "@fontsource-variable/dm-sans": "^5.2.8",
     "@mancuoj/prettier-config": "^0.5.4",
-    "@types/node": "^25.0.3",
-    "@types/react": "^19.2.7",
+    "@types/node": "^25.0.6",
+    "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.2.2",
     "prettier": "^3.7.4",
     "typescript": "~5.9.3",
-    "vite": "^7.3.0",
-    "vite-tsconfig-paths": "^6.0.3"
+    "vite": "^7.3.1",
+    "vite-tsconfig-paths": "^6.0.4"
   },
   "prettier": "@mancuoj/prettier-config"
 }
