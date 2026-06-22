@@ -19,7 +19,7 @@
   "devDependencies": {
     "@fontsource-variable/dm-sans": "^5.2.8",
     "@mancuoj/prettier-config": "^0.5.4",
-    "@types/node": "^25.9.4",
+    "@types/node": "^26.0.0",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.3.1",
